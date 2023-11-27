@@ -23,9 +23,12 @@
 if(isset($_POST['submit'])) 
 {
 	$nama    	= $_POST['nama'];
+
 	$reset   = "alter table kategori AUTO_INCREMENT = 1";
 	$query   = mysqli_query($con,$reset);
+
 	$result = mysqli_query($con, "INSERT INTO kategori (nama_kategori) VALUES ('$nama')");
+
 	header("Location: index.php?page=kategori");
 }
 ?>

@@ -1,6 +1,8 @@
 <?php  
 if (isset($_POST['submit'])) {
 
+    include "koneksi.php";
+
     $id       = $_POST["id_produk"]; 
     $jumlah   = $_POST["jumlah"]; 
 

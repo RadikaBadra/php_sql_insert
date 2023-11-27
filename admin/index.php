@@ -51,6 +51,27 @@
                         case 'pesanan':
                             include('pesanan.php'); 
                             break;
+                        case 'pesanan-del':
+                            include('pesanan-del.php'); 
+                            break;
+                        case 'produk-add':
+                            include('produk-add.php'); 
+                            break;
+                        case 'produk-edt':
+                            include('produk-edt.php'); 
+                            break;
+                        case 'produk-del':
+                            include('produk-del.php'); 
+                            break;
+                        case 'kategori-add':
+                            include('kategori-add.php'); 
+                            break;
+                        case 'kategori-edt':
+                            include('kategori-edt.php'); 
+                            break;
+                        case 'kategori-del':
+                            include('kategori-del.php'); 
+                            break;
                         default:
                             include('produk.php'); 
                             break;
